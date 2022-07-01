@@ -9,17 +9,20 @@ const swaggerDocumentation = {
         description: "Made by Harsh Sunil Jain(CSI-169)",
     },
 
+
     servers: [
         {
-            url: "http://localhost:4000",
+            url: "https://localhost:4000",
             description: "Local",
         },
 
         {
-            url: "http://production:4000",
+            url: "https://adminstudent1.herokuapp.com/",
             description: "Product after publishing",
         }
     ],
+
+    
 
     
     tags:[
