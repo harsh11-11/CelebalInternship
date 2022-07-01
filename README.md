@@ -1,5 +1,7 @@
 # CelebalSummerInternship2022
 
+[WEBSITE](https://adminstudent1.herokuapp.com/documentation/#/)
+
 tech used = node.js , mongodb atlas, npm, swagger doc.
 
 Problem Statement - 
@@ -17,15 +19,17 @@ following functionality:
 
 
 EACH FOLDER EXPLANATION:
+
     1. CONTROLLER - here in this folder we have two contoller
             a)Admin controller file where all function are written that has been asked 
             b)User Controller file where all functions related to student can be seen.
-    2. HELPER
-            here we have documentation file where all swagger documentation code is written , this code gives visual appeareance of all APIs we made
-    3. MIDDLEWARE
+    
+    2. HELPER -here we have documentation file where all swagger documentation code is written , this code gives visual appeareance of all APIs we made
+    
+    3. MIDDLEWARE - 
             this file help in authorizing JWT token created everytime admin or student login in
-    4. MODELS - this create for mongoose Atlas where all database stored to their     respective collection 
-            This Folder has 3 Models:
+
+    4. MODELS - this create for mongoose Atlas where all database stored to their     respective collection. This Folder has 3 Models:
             a) User.js - where student's studentID, firstName, lastName,            familyBackground, phoneParent, course all these information are stored.
             b)Admin.js - is place where Admin"s information like:
                            { adminID, firstName, lastName, email}
@@ -42,13 +46,14 @@ EACH FOLDER EXPLANATION:
                                 thru swagger documentation to by just few clicks
                                 and entering required data
         
+Three or more...
 
+---
+                                    
                                     Rest Endpoints
 
-    THESE POINTS CAN BE VISUALIZE BY [MY PROJECT](https://adminstudent1.herokuapp.com/documentation/#/) 
-         created by [HARSH](https://github.com/harsh11-11).
+    THESE POINTS CAN BE VISUALIZE BY WEBSITE LINKED UP
 
-                    
     a. POST /student/login
         • Students pass their studentID in the form data
         • API should check StudentID exists or not if exists send authToken in
