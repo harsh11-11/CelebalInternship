@@ -1,7 +1,6 @@
 # CelebalSummerInternship2022
 
-Reference-style: 
-![alt text][logo]
+
 
 :rocket: [WEBSITE](https://adminstudent1.herokuapp.com/documentation/#/) :rocket:
 
