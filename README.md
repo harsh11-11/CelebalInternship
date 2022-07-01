@@ -3,7 +3,7 @@
 Reference-style: 
 ![alt text][logo]
 
-[logo]: :rocket: "Logo Title Text 2"[WEBSITE](https://adminstudent1.herokuapp.com/documentation/#/)
+:rocket: [WEBSITE](https://adminstudent1.herokuapp.com/documentation/#/) :rocket:
 
 tech used = node.js , mongodb atlas, npm, swagger doc.
 
