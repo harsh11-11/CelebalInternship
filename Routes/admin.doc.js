@@ -277,6 +277,27 @@ const deleteStudentRecord = {
             required: "true",
         }
     ],
+
+    responses: {
+        200: {
+            description: "USER HAS BEEN DELETED",
+            content: {
+                "application/json":{
+                    schema:{
+                        type:"STRING",                        
+                        
+                    },
+                },
+            },
+        },
+
+        404:{
+            description: "USER CANT BE DELETED",
+            schema:{
+                type:"string" 
+            },
+        },
+    },
 }
 
 const adminRouteDocs = {
